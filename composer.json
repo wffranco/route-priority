@@ -15,7 +15,7 @@
     },
     "autoload": {
         "psr-4": {
-            "langaner\\route-priority\\": "src"
+            "Langaner\\RoutePriority\\": "src/"
         }
     },
     "minimum-stability": "stable"
