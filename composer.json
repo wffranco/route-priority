@@ -1,0 +1,22 @@
+{
+    "name": "langaner/route-priority",
+    "description": "Package to add priority to Laravel 5 routes",
+    "keywords": ["laravel 5", "route", "priority"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Langaner",
+            "email": "krashgt@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9",
+        "illuminate/support": "5.1.*|5.2.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "langaner\\route-priority\\": "src"
+        }
+    },
+    "minimum-stability": "stable"
+}
