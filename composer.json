@@ -1,7 +1,7 @@
 {
     "name": "langaner/route-priority",
     "description": "Package to add priority to Laravel 5 routes",
-    "keywords": ["laravel 5", "route", "priority"],
+    "keywords": ["laravel", "route", "priority"],
     "license": "MIT",
     "authors": [
         {
