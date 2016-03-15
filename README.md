@@ -4,7 +4,7 @@
 
 1) Add `langaner/route-priority` to `composer.json`.
 
-    "langaner/route-priority": "1.*"
+    "langaner/route-priority": "dev-master"
     
 2)Run `composer update` to pull down the latest version of the package.
 
