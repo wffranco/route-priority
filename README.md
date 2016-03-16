@@ -1,5 +1,10 @@
 ## Package to add priority to Laravel 5 routes
 
+[![Latest Stable Version](https://poser.pugx.org/langaner/route-priority/v/stable)](https://packagist.org/packages/langaner/route-priority) 
+[![Total Downloads](https://poser.pugx.org/langaner/route-priority/downloads)](https://packagist.org/packages/langaner/route-priority) 
+[![Latest Unstable Version](https://poser.pugx.org/langaner/route-priority/v/unstable)](https://packagist.org/packages/langaner/route-priority) 
+[![License](https://poser.pugx.org/langaner/route-priority/license)](https://packagist.org/packages/langaner/route-priority)
+
 ### Installation
 
 1) Add `langaner/route-priority` to `composer.json`.
