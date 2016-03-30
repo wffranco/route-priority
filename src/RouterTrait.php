@@ -11,6 +11,12 @@ trait RouterTrait
 	{
 		$this->router = $this->app['router'];
 		
+		if(!empty($this->middlewareGroups)) {
+			foreach ($this->middlewareGroups as $key => $middleware) {
+				$this->router->middlewareGroup($key, $middleware);
+			}
+		}		
+		
 		foreach ($this->routeMiddleware as $key => $middleware) {
 			$this->router->middleware($key, $middleware);
 		}
