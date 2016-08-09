@@ -17,13 +17,11 @@ trait RouterTrait
 			}
 		}		
 		
-		foreach ($this->routeMiddleware as $key => $middleware) {
-			$this->router->middleware($key, $middleware);
+		if(!empty($this->routeMiddleware)) {
+			foreach ($this->routeMiddleware as $key => $middleware) {
+				$this->router->middleware($key, $middleware);
+			}
 		}
-
-		foreach ($this->middlewareGroups as $key => $middleware) {
-            $this->router->middlewareGroup($key, $middleware);
-        }
 
 		return parent::dispatchToRouter();
 	}
