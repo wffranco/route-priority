@@ -15,6 +15,10 @@ trait RouterTrait
 			$this->router->middleware($key, $middleware);
 		}
 
+		foreach ($this->middlewareGroups as $key => $middleware) {
+            $this->router->middlewareGroup($key, $middleware);
+        }
+
 		return parent::dispatchToRouter();
 	}
 }
