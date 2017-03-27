@@ -19,8 +19,9 @@ class Route extends IlluminateRoute
      *
      * @throws \Symfony\Component\HttpKernel\Exception\NotFoundHttpException
      */
-    protected function runController(Request $request)
+    protected function runController()
     {
+		$request = new Request();
     	$this->router = app('router');
         list($class, $method) = explode('@', $this->action['uses']);
         
